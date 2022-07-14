@@ -1,0 +1,123 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  h1 { text-align: center }
+html {
+  font-size: 15px;
+} 
+h1, h2 {
+font-size: 1.5;
+}
+body{
+  line-height: normal;
+}
+
+h2 + p {
+  text-indent: 20px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+ol li {
+  list-style-type: lower-alpha;
+}
+
+
+a:link    { 
+  color: burlywood;
+  text-decoration: underline;
+
+}
+
+a:active{
+  background-color: beige;
+}
+a:focus{
+  text-decoration: none;
+}
+a:visited{
+  color: burlywood;
+}
+a:hover   { 
+  color: red;
+  text-decoration: none;
+}
+
+img{
+  height: 10px;
+}
+
+nav ul li  {
+  display: block;
+  padding:15px;
+  padding-left: 30px;
+  border:2px solid burlywood;
+
+  
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+nav ul:hover{
+  cursor: pointer;
+  
+}
+ 
+nav ul li:hover{
+  opacity: 0.5;
+}
+
+
+
+nav ul li a:link {
+  text-decoration: none;
+}
